@@ -1,6 +1,6 @@
 ---
 name: InfiniTime
-version: 0.0.20
+version: 0.0.21
 
 slug: infinitime
 description: BLE addon that interfaces with watches running infinitime
