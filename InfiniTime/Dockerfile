@@ -32,3 +32,4 @@ RUN chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
 CMD [ "/bin/bash" ]
+RUN ["itd"]
