@@ -23,7 +23,7 @@ ENV GOPATH /go
 ENV PATH /go/bin:$PATH
 RUN mkdir -p ${GOPATH}/src ${GOPATH}/bin
 
-RUN go get go.arsenm.dev/itd
+RUN go install go.arsenm.dev/itd
 
 COPY ./run.sh /
 RUN chmod a+x /run.sh
