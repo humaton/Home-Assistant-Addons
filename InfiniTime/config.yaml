@@ -1,11 +1,12 @@
 ---
 name: InfiniTime
-version: 0.0.21
+version: 0.0.22
 
 slug: infinitime
 description: BLE addon that interfaces with watches running infinitime
 startup: application
 boot: auto
+init: false
 homeassistant_api: True
 auth_api: True
 map:
