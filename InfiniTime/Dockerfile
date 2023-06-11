@@ -31,4 +31,4 @@ COPY ./run.sh /
 RUN chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
-#CMD [ "/bin/bash" ]
+CMD [ "/bin/bash" ]
