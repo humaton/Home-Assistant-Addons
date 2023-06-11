@@ -32,4 +32,4 @@ RUN chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
 CMD [ "/bin/bash" ]
-RUN ["systemctl --user start itd"]
+RUN ["systemctl start itd"]
