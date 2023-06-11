@@ -4,5 +4,3 @@ export LANG=C
 PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin"
 CONFIG_PATH=/data/options.json
 echo "infinitime addon"
-systemctl start itd.service
-
