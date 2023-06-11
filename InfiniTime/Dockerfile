@@ -30,5 +30,5 @@ RUN mkdir -p ${GOPATH}/src ${GOPATH}/bin
 COPY ./run.sh /
 RUN chmod a+x /run.sh
 
-#CMD [ "/run.sh" ]
+CMD [ "/run.sh" ]
 #CMD [ "/bin/bash" ]
