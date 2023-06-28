@@ -23,7 +23,7 @@ RUN apk add --no-cache --allow-untrusted ./itd-1.1.0-linux-x86_64.apk
 #ENV GOROOT /usr/lib/go
 #ENV GOPATH /go
 #ENV PATH /go/bin:$PATH
-RUN mkdir -p ${GOPATH}/src ${GOPATH}/bin
+#RUN mkdir -p ${GOPATH}/src ${GOPATH}/bin
 
 #RUN go install go.arsenm.dev/itd@latest
 
