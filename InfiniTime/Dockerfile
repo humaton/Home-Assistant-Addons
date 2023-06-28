@@ -20,9 +20,9 @@ RUN apk add --no-cache --virtual build-deps alpine-sdk cmake libusb-dev libusb j
 RUN wget https://gitea.elara.ws/Elara6331/itd/releases/download/v1.1.0/itd-1.1.0-linux-x86_64.apk
 RUN apk add --no-cache --allow-untrusted ./itd-1.1.0-linux-x86_64.apk
 # Configure Go
-ENV GOROOT /usr/lib/go
-ENV GOPATH /go
-ENV PATH /go/bin:$PATH
+#ENV GOROOT /usr/lib/go
+#ENV GOPATH /go
+#ENV PATH /go/bin:$PATH
 RUN mkdir -p ${GOPATH}/src ${GOPATH}/bin
 
 #RUN go install go.arsenm.dev/itd@latest
